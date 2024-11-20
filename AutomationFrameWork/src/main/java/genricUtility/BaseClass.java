@@ -28,7 +28,7 @@ public class BaseClass {
 	 * 
 	 */
 	public ExcelUtility eUtility=new ExcelUtility();
-	public ExtentTest test;
+	public static ExtentTest test;
 	
 	public LoginPage lp;
 	public WelcomePage wp;

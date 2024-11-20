@@ -20,7 +20,7 @@ public class TC_DWS_005_Test  extends BaseClass{
 	
 		lp=new LoginPage(driver);
 		lp.getBooksLink().click();
-		Assert.assertNotEquals(driver.getTitle(),"Demo Web Shop. Books" ,"Books is not dispalyed");
+		Assert.assertEquals(driver.getTitle(),"Demo Web Shop. Books" ,"Books is not dispalyed");
 		test.log(Status.PASS, "Books page is displayed");
 		
 	}
