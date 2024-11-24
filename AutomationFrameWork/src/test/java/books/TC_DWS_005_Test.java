@@ -17,7 +17,7 @@ import objectrepository.LoginPage;
 public class TC_DWS_005_Test  extends BaseClass{
 	@Test
 	public void clickOnBooks() throws EncryptedDocumentException, IOException {
-	
+	//this should be given from the local class
 		lp=new LoginPage(driver);
 		lp.getBooksLink().click();
 		Assert.assertEquals(driver.getTitle(),"Demo Web Shop. Books" ,"Books is not dispalyed");
